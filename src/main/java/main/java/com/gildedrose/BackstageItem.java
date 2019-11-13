@@ -15,11 +15,10 @@ public class BackstageItem extends Item {
                 }
 
 
-            if (sellIn < 6) {
-                if (quality < 50) {
+            if ((sellIn < 6) && (quality < 50)) {
                     quality = quality + 1;
                 }
-            }
+
         }
 
         sellIn = sellIn - 1;

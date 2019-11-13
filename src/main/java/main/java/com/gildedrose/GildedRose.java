@@ -8,27 +8,28 @@ public class GildedRose {
     }
 
     public void updateQuality() {
-        for (int i = 0; i < items.length; i++) {
-            Item item = items[i];
+        for (Item item : items) {
             doUpdateQuality(item);
         }
     }
 
     private void doUpdateQuality(Item item) {
-        if (item.name.equals("Aged Brie")) {
-            if (item.quality < 50) {
-                item.quality = item.quality + 1;
-
-            }
-
-            item.sellIn = item.sellIn - 1;
-
-            if (item.sellIn < 0) {
+        switch (item.name) {
+            case "Aged Brie":
                 if (item.quality < 50) {
                     item.quality = item.quality + 1;
+
                 }
-            }
-        } else if (item.name.equals("Backstage passes to a TAFKAL80ETC concert")) {
+
+                item.sellIn = item.sellIn - 1;
+
+                if (item.sellIn < 0) {
+                    if (item.quality < 50) {
+                        item.quality = item.quality + 1;
+                    }
+                }
+                break;
+            case "Backstage passes to a TAFKAL80ETC concert":
                 if (item.quality < 50) {
                     item.quality = item.quality + 1;
 
@@ -50,30 +51,32 @@ public class GildedRose {
                 if (item.sellIn < 0) {
                     item.quality = 0;
                 }
-            } else if (item.name.equals("Sulfuras, Hand of Ragnaros")) {
+                break;
+            case "Sulfuras, Hand of Ragnaros":
 
+                break;
+            default:
+                if (item.quality > 0) {
+                    if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
+                        item.quality = item.quality - 1;
+                    }
+                }
 
-                } else {
+                if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
+                    item.sellIn = item.sellIn - 1;
+                }
+
+                if (item.sellIn < 0) {
                     if (item.quality > 0) {
                         if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
                             item.quality = item.quality - 1;
                         }
                     }
-
-                    if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
-                        item.sellIn = item.sellIn - 1;
-                    }
-
-                    if (item.sellIn < 0) {
-                        if (item.quality > 0) {
-                            if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
-                                item.quality = item.quality - 1;
-                            }
-                        }
-                    }
                 }
-            }
+                break;
         }
+
+
     }
 
 }

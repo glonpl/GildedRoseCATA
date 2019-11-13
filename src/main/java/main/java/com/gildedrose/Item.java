@@ -46,10 +46,9 @@ public class Item {
             sellIn = sellIn - 1;
 
 
-            if (sellIn < 0) {
-                if (quality > 0) {
+            if ((sellIn < 0) && (quality > 0)) {
                     quality = quality - 1;
-                }
+
             }
 
         }

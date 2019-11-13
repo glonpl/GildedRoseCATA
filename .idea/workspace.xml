@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Refactoring by replacing Conditional with Polymorphism, added conjured mana cake." />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Refactoring by replacing Conditional with Polymorphism, added conjured mana cake.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/Item.java" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +28,7 @@
     <SUITE FILE_PATH="coverage/untitled$TexttestFixture.ic" NAME="TexttestFixture Coverage Results" MODIFIED="1573638316499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.com.gildedrose.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/untitled$GildedRoseTest_foo.ic" NAME="GildedRoseTest.foo Coverage Results" MODIFIED="1573638333507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/untitled$GildedRoseTest_foo.ic" NAME="GildedRoseTest.foo Coverage Results" MODIFIED="1573644746498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>test.java.com.gildedrose.*</FILTER>
     </SUITE>
   </component>
@@ -103,14 +106,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="651" />
+          <entry key="java" value="659" />
           <entry key="txt" value="68" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="651" />
+          <entry key="JAVA" value="659" />
           <entry key="PLAIN_TEXT" value="83" />
           <entry key="XML" value="1" />
         </counts>
@@ -131,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="260">
+              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -149,7 +152,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/AgedBrieItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
@@ -243,10 +246,10 @@
         <option value="$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/AgedBrieItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/BackstageItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/SulfurasItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/Item.java" />
         <option value="$PROJECT_DIR$/src/Test/java/test/java/com/gildedrose/GildedRoseTest.java" />
         <option value="$PROJECT_DIR$/src/Test/java/test/java/com/gildedrose/TexttestFixture.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/ConjuredManaCakeItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/Item.java" />
       </list>
     </option>
   </component>
@@ -356,7 +359,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573644152281" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573644779908" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
@@ -593,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573641981464</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactoring by replacing Conditional with Polymorphism, added conjured mana cake.">
+      <created>1573644298889</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573644298890</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -633,8 +643,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22013423" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22013423" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -655,7 +666,7 @@
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.14609928" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.14609928" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.3281879" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24966443" />
@@ -768,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/ConjuredManaCakeItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -790,6 +794,13 @@
             <element signature="e#138#139#0" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/gildedrose/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
